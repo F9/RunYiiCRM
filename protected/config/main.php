@@ -7,7 +7,7 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'CRM - Finanza e Futuro',
+	'name'=>'',
 
 	// preloading 'log' component
 	'preload'=>array('log'),
@@ -22,9 +22,9 @@ return array(
 		// uncomment the following to enable the Gii tool
 		'gii'=>array(
 			'class'=>'system.gii.GiiModule',
-			'password'=>'pippo123',
+			'password'=>'',
 			// If removed, Gii defaults to localhost only. Edit carefully to taste.
-			'ipFilters'=>array('79.44.34.124','::1'),
+			'ipFilters'=>array('','::1'),
 		),
 		
 	),
@@ -53,10 +53,10 @@ return array(
 */
 		// uncomment the following to use a MySQL database
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=crm',
+			'connectionString' => 'mysql:host=;dbname=',
 			'emulatePrepare' => true,
-			'username' => 'root',
-			'password' => '892892',
+			'username' => '',
+			'password' => '',
 			'charset' => 'utf8',
 		),
 		
